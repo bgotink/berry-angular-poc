@@ -458,7 +458,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 ],
                 [
                   "webpack-subresource-integrity",
-                  "npm:1.1.0-rc.6"
+                  "npm:1.1.0-rc.7"
                 ],
                 [
                   "worker-plugin",
@@ -674,7 +674,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 ],
                 [
                   "webpack-subresource-integrity",
-                  "virtual:df6aabc6e52f59494f85e743d904dd7e1d08df72963cecf9ef41b4818a6d0d00d3dc042b36dc1654888f4b297369334d8cc43963d47c852d2355300877f4cc64#npm:1.1.0-rc.6"
+                  "virtual:df6aabc6e52f59494f85e743d904dd7e1d08df72963cecf9ef41b4818a6d0d00d3dc042b36dc1654888f4b297369334d8cc43963d47c852d2355300877f4cc64#npm:1.1.0-rc.7"
                 ],
                 [
                   "worker-plugin",
@@ -23651,13 +23651,13 @@ function $$SETUP_STATE(hydrateRuntimeState) {
         "webpack-subresource-integrity",
         [
           [
-            "npm:1.1.0-rc.6",
+            "npm:1.1.0-rc.7",
             {
-              "packageLocation": "./.yarn/cache/webpack-subresource-integrity-npm-1.1.0-rc.6-f5e7daeed3e78c33d4e896696f6e0bae79ee134e84a7ea8185eb3cd1ec208aef.zip/node_modules/webpack-subresource-integrity/",
+              "packageLocation": "./.yarn/cache/webpack-subresource-integrity-npm-1.1.0-rc.7-25ac22ad0c0db8cfcee915724fb1689ee0799024dd6de8ead5218e585f96c8b0.zip/node_modules/webpack-subresource-integrity/",
               "packageDependencies": [
                 [
                   "webpack-subresource-integrity",
-                  "npm:1.1.0-rc.6"
+                  "npm:1.1.0-rc.7"
                 ],
                 [
                   "webpack-core",
@@ -23667,13 +23667,13 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             }
           ],
           [
-            "virtual:df6aabc6e52f59494f85e743d904dd7e1d08df72963cecf9ef41b4818a6d0d00d3dc042b36dc1654888f4b297369334d8cc43963d47c852d2355300877f4cc64#npm:1.1.0-rc.6",
+            "virtual:df6aabc6e52f59494f85e743d904dd7e1d08df72963cecf9ef41b4818a6d0d00d3dc042b36dc1654888f4b297369334d8cc43963d47c852d2355300877f4cc64#npm:1.1.0-rc.7",
             {
-              "packageLocation": "./.yarn/virtual/webpack-subresource-integrity-virtual-7e1bd2855b7d694796347190d13cbc688d896704402b3fc3e7fd783f8a207829/node_modules/webpack-subresource-integrity/",
+              "packageLocation": "./.yarn/virtual/webpack-subresource-integrity-virtual-f744d74ea5a6d8729922afcaa8eea915674ac2ca1d827a87ae568d4bc1dd8fa3/node_modules/webpack-subresource-integrity/",
               "packageDependencies": [
                 [
                   "webpack-subresource-integrity",
-                  "virtual:df6aabc6e52f59494f85e743d904dd7e1d08df72963cecf9ef41b4818a6d0d00d3dc042b36dc1654888f4b297369334d8cc43963d47c852d2355300877f4cc64#npm:1.1.0-rc.6"
+                  "virtual:df6aabc6e52f59494f85e743d904dd7e1d08df72963cecf9ef41b4818a6d0d00d3dc042b36dc1654888f4b297369334d8cc43963d47c852d2355300877f4cc64#npm:1.1.0-rc.7"
                 ],
                 [
                   "webpack",

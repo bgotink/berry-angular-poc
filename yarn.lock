@@ -8845,13 +8845,14 @@ webpack-merge@4.2.1:
   linkType: hard
 
 webpack-subresource-integrity@1.1.0-rc.6:
-  version: 1.1.0-rc.6
-  resolution: "webpack-subresource-integrity@npm:1.1.0-rc.6"
+  version: 1.1.0-rc.7
+  resolution: "webpack-subresource-integrity@npm:1.1.0-rc.7"
   dependencies:
     webpack-core: ^0.6.8
   peerDependencies:
+    html-webpack-plugin: ^2.21.0 || ~3 || >=4.0.0-alpha.2 <5
     webpack: ^1.12.11 || ~2 || ~3 || ~4
-  checksum: df20acd283303947e7a66654031c589c15a84b72a954209379267055dac2ed1236ce85a51505e0292927f5f870c7bf12bfe29fc2793fd228c45bd264d110354c
+  checksum: 26f6a242df8420c7a7e687459917ef466af79e5fe1bbefc71946ec7c0016c417a8fbf77748832fa00b778f9544b155ab1378e4ec7bc5947014c5c3a4920123b9
   languageName: node
   linkType: hard
 
