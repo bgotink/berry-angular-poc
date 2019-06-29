@@ -103,7 +103,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/core@8.0.6":
+"@angular-devkit/core@8.0.6, @angular-devkit/core@npm:*":
   version: 8.0.6
   resolution: "@angular-devkit/core@npm:8.0.6"
   dependencies:
@@ -391,6 +391,39 @@ __metadata:
     lodash: ^4.17.11
     to-fast-properties: ^2.0.0
   checksum: 2da2dc3f349c1b85a5f1a4c7431b0825e1af9bfe1dbbfef34e0e1062219753a88aec75baf82f39be58e09576e2616e9f852cf060bb26cd8f803f43d77eefdedf
+  languageName: node
+  linkType: hard
+
+"@berry/fslib@npm:0.0.7":
+  version: 0.0.7
+  resolution: "@berry/fslib@npm:0.0.7"
+  dependencies:
+    "@berry/libzip": "npm:0.0.4"
+  checksum: 7fac3ec5376d7c253fe154f2c0d495fed8b9fc2ecb201b21ee1c0486ba90e9a2f7b56fb15da20bf8449542e10e6b78d809279b4997766dc22a25260e92ab5810
+  languageName: node
+  linkType: hard
+
+"@berry/libzip@npm:0.0.4":
+  version: 0.0.4
+  resolution: "@berry/libzip@npm:0.0.4"
+  checksum: 044ff6935cfff2c9abfff07045032e5390c322cf26b0f277f4ae5ffb54d389712f5ec1d602c17faaf73d8a712ca780483b81c83fc69b3c41d18146dcf44b81ea
+  languageName: node
+  linkType: hard
+
+"@berry/pnpify@npm:^0.0.6":
+  version: 0.0.6
+  resolution: "@berry/pnpify@npm:0.0.6"
+  dependencies:
+    "@berry/fslib": "npm:0.0.7"
+    cross-spawn: "npm:^6.0.5"
+  peerDependencies:
+    typescript: "*"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  bin:
+    pnpify: ./lib/bin.js
+  checksum: 7bb501132f017bc2a253acae5c0f3cb7183a7658cc16370c0dc55821157782c020b0b334af0b933bc4c14505facad10ad67f6291a5142a626f142aab09d71744
   languageName: node
   linkType: hard
 
@@ -1369,6 +1402,7 @@ bcrypt-pbkdf@^1.0.0:
   resolution: "berry-angular@workspace:."
   dependencies:
     "@angular-devkit/build-angular": ~0.800.6
+    "@angular-devkit/core": "npm:*"
     "@angular/animations": ~8.0.3
     "@angular/cli": ~8.0.6
     "@angular/common": ~8.0.3
@@ -1380,6 +1414,7 @@ bcrypt-pbkdf@^1.0.0:
     "@angular/platform-browser": ~8.0.3
     "@angular/platform-browser-dynamic": ~8.0.3
     "@angular/router": ~8.0.3
+    "@berry/pnpify": "npm:^0.0.6"
     "@types/jasmine": ~3.3.8
     "@types/jasminewd2": ~2.0.3
     "@types/node": ~8.9.4
@@ -2355,7 +2390,7 @@ create-ecdh@^4.0.0:
   languageName: node
   linkType: hard
 
-cross-spawn@^6.0.0:
+"cross-spawn@^6.0.0, cross-spawn@npm:^6.0.5":
   version: 6.0.5
   resolution: "cross-spawn@npm:6.0.5"
   dependencies:
