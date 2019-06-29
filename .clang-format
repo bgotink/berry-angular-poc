@@ -1,0 +1,44 @@
+# We only format JavaScript files in this project
+Language: JavaScript
+
+# Based on Google's styleguide
+BasedOnStyle: Google
+# With the following overrides:
+
+# Set max column width to 100 characters instead of the default 80
+ColumnLimit: 100
+
+# Make multiple imports wrap to multiple lines instead of forcing them
+# on one line (which leads to very long lines).
+JavaScriptWrapImports: true
+
+# Put field annotations/decorators on a separate line instead of inlining them, e.g.
+#   @Input()
+#   public foo: string;
+# instead of
+#   @Input() public foo: string;
+BreakAfterJavaFieldAnnotations: true
+
+# Short if statemens shouldn't be single line, i.e.
+#   if (foo)
+#     bar();
+# instead of
+#   if (foo) bar();
+AllowShortIfStatementsOnASingleLine: false
+
+# Do now allow simple loops to be single line, i.e.
+#   while (foo)
+#     bar();
+# instead of
+#   while (foo) bar();
+AllowShortLoopsOnASingleLine: false
+
+# Max number of consecutive empty lines
+MaxEmptyLinesToKeep: 1
+
+# Do not bin-pack arguments/parameters, i.e. arguments/parameters must either be all on the same
+# line or each on their own line.
+# Why? Because bin-packing leads to sudden code layout changes and even ping-ponging between two
+# code layouts.
+BinPackArguments: false
+BinPackParameters: false
