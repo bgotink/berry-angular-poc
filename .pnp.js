@@ -232,7 +232,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
           ]
         }],
         ["virtual:0c174fe0ecdf9b7826c6e21e86c687f46e5585059f84c1e58d066337c0cd8928b067c6ac3d1d419cf69ada4000fb1209c2f544682b48fa004578c711a8f1bfa3#npm:0.800.6", {
-          "packageLocation": "./.yarn/virtual/@angular-devkit-build-angular-virtual-df6aabc6e52f59494f85e743d904dd7e1d08df72963cecf9ef41b4818a6d0d00/node_modules/@angular-devkit/build-angular/",
+          "packageLocation": "./.yarn/unplugged/@angular-devkit-build-angular-virtual-df6aabc6e52f59494f85e743d904dd7e1d08df72963cecf9ef41b4818a6d0d00/node_modules/@angular-devkit/build-angular/",
           "packageDependencies": [
             ["@angular-devkit/build-angular", "virtual:0c174fe0ecdf9b7826c6e21e86c687f46e5585059f84c1e58d066337c0cd8928b067c6ac3d1d419cf69ada4000fb1209c2f544682b48fa004578c711a8f1bfa3#npm:0.800.6"],
             ["@angular-devkit/architect", "npm:0.800.6"],
