@@ -126,7 +126,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@angular-devkit/build-angular", "virtual:0c174fe0ecdf9b7826c6e21e86c687f46e5585059f84c1e58d066337c0cd8928b067c6ac3d1d419cf69ada4000fb1209c2f544682b48fa004578c711a8f1bfa3#npm:0.801.2"],
-            ["@angular-devkit/core", "npm:8.0.6"],
+            ["@angular-devkit/core", "npm:8.1.2"],
             ["@angular/animations", "virtual:0c174fe0ecdf9b7826c6e21e86c687f46e5585059f84c1e58d066337c0cd8928b067c6ac3d1d419cf69ada4000fb1209c2f544682b48fa004578c711a8f1bfa3#npm:8.1.3"],
             ["@angular/cli", "npm:8.1.2"],
             ["@angular/common", "virtual:0c174fe0ecdf9b7826c6e21e86c687f46e5585059f84c1e58d066337c0cd8928b067c6ac3d1d419cf69ada4000fb1209c2f544682b48fa004578c711a8f1bfa3#npm:8.1.3"],
@@ -323,17 +323,6 @@ function $$SETUP_STATE(hydrateRuntimeState) {
         }]
       ]],
       ["@angular-devkit/core", [
-        ["npm:8.0.6", {
-          "packageLocation": "./.yarn/cache/@angular-devkit-core-npm-8.0.6-6cc347fac06a8823ca1df213c46e2c2c6e9da26ae22cade9f2a8316bf978e5b7.zip/node_modules/@angular-devkit/core/",
-          "packageDependencies": [
-            ["@angular-devkit/core", "npm:8.0.6"],
-            ["ajv", "npm:6.10.0"],
-            ["fast-json-stable-stringify", "npm:2.0.0"],
-            ["magic-string", "npm:0.25.2"],
-            ["rxjs", "npm:6.4.0"],
-            ["source-map", "npm:0.7.3"]
-          ]
-        }],
         ["npm:8.1.2", {
           "packageLocation": "./.yarn/cache/@angular-devkit-core-npm-8.1.2-4b4254d79d89f310479c14eba17061f3f20d7cac347948343d4fafb9c264cb0e.zip/node_modules/@angular-devkit/core/",
           "packageDependencies": [
@@ -1787,7 +1776,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
           "packageDependencies": [
             ["berry-angular", "workspace:."],
             ["@angular-devkit/build-angular", "virtual:0c174fe0ecdf9b7826c6e21e86c687f46e5585059f84c1e58d066337c0cd8928b067c6ac3d1d419cf69ada4000fb1209c2f544682b48fa004578c711a8f1bfa3#npm:0.801.2"],
-            ["@angular-devkit/core", "npm:8.0.6"],
+            ["@angular-devkit/core", "npm:8.1.2"],
             ["@angular/animations", "virtual:0c174fe0ecdf9b7826c6e21e86c687f46e5585059f84c1e58d066337c0cd8928b067c6ac3d1d419cf69ada4000fb1209c2f544682b48fa004578c711a8f1bfa3#npm:8.1.3"],
             ["@angular/cli", "npm:8.1.2"],
             ["@angular/common", "virtual:0c174fe0ecdf9b7826c6e21e86c687f46e5585059f84c1e58d066337c0cd8928b067c6ac3d1d419cf69ada4000fb1209c2f544682b48fa004578c711a8f1bfa3#npm:8.1.3"],
